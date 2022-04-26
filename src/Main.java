@@ -3,8 +3,12 @@
 * Project: Let Me Clean
 */
 
+import Database.DatabaseHandler;
+
 public class Main {
     public static void main(String[] args) {
-	// write your code here
+        DatabaseHandler dbh = new DatabaseHandler();
+
+
     }
 }

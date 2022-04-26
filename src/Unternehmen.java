@@ -26,9 +26,8 @@ public class Unternehmen {
         this.OfferNo = OfferNo;
         b = true;
     }
-    public Unternehmen(String name, String JobOrderNo, boolean b,boolean a) {
+    public Unternehmen(String name, boolean b,boolean a) {
         this.Name = name;
-        this.JobOrderNo = JobOrderNo;
         b = true;
         a = true;
     }
@@ -43,11 +42,10 @@ public class Unternehmen {
         Name = name;
     }
 
-    public Unternehmen(String name, String place, String offerNo, String jobOrderNo, String Customer) {
+    public Unternehmen(String name, String place, String offerNo, String Customer) {
         Name = name;
         Place = place;
         OfferNo = offerNo;
-        JobOrderNo = jobOrderNo;
         this.Customer = Customer;
     }
 
@@ -75,13 +73,6 @@ public class Unternehmen {
         OfferNo = offerNo;
     }
 
-    public String getJobOrderNo() {
-        return JobOrderNo;
-    }
-
-    public void setJobOrderNo(String jobOrderNo) {
-        JobOrderNo = jobOrderNo;
-    }
 
     public String getCustomer() {
         return Customer;
